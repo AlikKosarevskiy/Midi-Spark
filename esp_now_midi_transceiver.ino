@@ -8,7 +8,8 @@ Adafruit_USBD_MIDI usb_midi;
 
 // === ESP-NOW ===
 // MAC-адрес слейва (замени на свой)
-uint8_t slaveAddress[] = {0xCC, 0x8D, 0xA2, 0x94, 0x98, 0x18};
+// uint8_t slaveAddress[] = {0xCC, 0x8D, 0xA2, 0x94, 0x98, 0x18};  // esp32 S2
+uint8_t slaveAddress[] = {0x40, 0x91, 0x51, 0x9F, 0x17, 0xEC};    // esp32 NodeMCU DevKit
 
 // Структура передаваемых данных
 typedef struct struct_message {
