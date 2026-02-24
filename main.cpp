@@ -1,4 +1,4 @@
-// FOR the three lamps
+// FOR the three lamps  Receiver2026
 
 #include <WiFi.h>
 #include <esp_now.h>
